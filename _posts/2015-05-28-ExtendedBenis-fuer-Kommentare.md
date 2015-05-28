@@ -4,7 +4,7 @@ title: "ExtendedBenis für Kommentare"
 categories:
   - userscript
   - installable
-author: CaptnUrMom
+author: holzmaster
 presented: 643743
 link: //github.com/pr0nopoly/comment-mausfaul
 code: //github.com/pr0nopoly/comment-mausfaul
