@@ -1,0 +1,186 @@
+---
+layout: default
+title: Eckdaten
+permalink: /eckdaten/
+user_titles:
+  -
+    name: Gebannt
+    css: um4
+    color: 444444
+  -
+    name: Fliesentisch
+    css: um6
+    color: 6c432b
+  -
+    name: Neuschwuchtel
+    css: um1
+    color: e108e9
+  -
+    name: Schwuchtel
+    css: um0
+    color: ffffff
+  -
+    name: Edler Spender
+    css: um9
+    color: 1cb992
+  -
+    name: Altschwuchtel
+    css: um2
+    color: 5bb91c
+  -
+    name: Wichtel
+    css: um8
+    color: 1cb992
+  -
+    name: Moderator
+    css: um5
+    color: 008fff
+  -
+    name: Administrator
+    css: um3
+    color: ff9900
+  -
+    name: Lebende Legende
+    css: um7
+    color: 1cb992
+pr0gramm_colors:
+  -
+    name: Richtiges Grau
+    color: 161618
+  -
+    name: pr0gramm-Orange
+    color: ee4d2e
+  -
+    name: "Standard-Schriftfarbe"
+    color: f2f5f4
+  -
+    name: "Standard-Schriftfarbe (ausgegraut)"
+    color: 888888
+  -
+    name: Linkfarbe
+    color: 75c0c7
+  -
+    name: "\"IRGENDWAS DOOFES IST PASSIERT\"-Farbe"
+    color: fc8833
+  -
+    name: Alternative Hintergrundfarbe
+    color: 212121
+  -
+    name: Gelb vom pr0mium-Post
+    color: f7c516
+  -
+    name: SFW-Grün
+    color: 5cb85c
+  -
+    name: NSFW-Orange
+    color: f0ad4e
+  -
+    name: NSFL-Rot
+    color: d9534f
+  -
+    name: pr0mium-Auswahlteile
+    color: 222222
+  -
+    name: "Ehemalige Hintergrundfarbe der Kommentare"
+    color: 2a2e31
+  -
+    name: "Altes pr0gramm <3"
+    color: ff0082
+badges:
+  - wichtel: "//pr0gramm.com/media/badges/secret-santa-2014.png"
+  - fag: "//pr0gramm.com/media/badges/social-share.png"
+  - years: "//pr0gramm.com/media/badges/years.png"
+  - comments: "//pr0gramm.com/media/badges/comments.png"
+  - keyb0ard: "//pr0gramm.com/media/badges/keyboard.png"
+favicon: "//pr0gramm.com/media/pr0gramm-favicon.png"
+favicon_old: "/userscripts/image/pr0gramm-favicon-old.ico"
+dickbutt_highres: "/userscripts/image/dickbutt-highres.png"
+svg: "//raw.githubusercontent.com/pr0nopoly/rezepte/master/Heft/_assets/pr0gramm-logo.svg"
+pict0gramm: "//pr0gramm.com/media/fonts/pict0gramm.ttf"
+torrent: "//pr0gramm.com/new/776656"
+header_image: "//pr0gramm.com/media/pr0gramm.png"
+source_code: "//github.com/pr0nopoly/userscripts"
+---
+<header class="post-header">
+	<h1 class="post-title">Eckdaten für Textposts</h1>
+</header>
+<ul class="post-list">
+<li>
+	<article>
+		<h2>Farben</h2>
+		<ul>
+			{% for color in page.pr0gramm_colors %}
+			<li>
+				<span class="color-preview" style="color: #{{color.color}}; background-color: #{{color.color}}">#{{ color.color }}</span>
+				{{ color.name }} <code>#{{ color.color }}</code> (<a href="http://www.color-hex.com/color/{{color.color}}">Formate</a>)
+			</li>
+			{% endfor %}
+		</ul>
+	</article>
+</li>
+
+<li>
+	<article>
+		<h2>Benutzertitel</h2>
+		<ul>
+			{% for status in page.user_titles %}
+			<li class="user {{ status.css }}">
+				<span class="color-preview" style="color: #{{status.color}}; background-color: #{{status.color}}">#{{ status.color }}</span>
+				{{ status.name }} <code>#{{ status.color }}</code> (<a href="http://www.color-hex.com/color/{{status.color}}" title="CSS-Klasse: {{ status.css }}">Formate</a>)
+			</li>
+			{% endfor %}
+		</ul>
+	</article>
+</li>
+
+<li>
+	<article>
+		<h2>Schriften und Zeichen</h2>
+		<ul>
+			<li>Standard-Schriftarten: <code>Sans-Serif</code>, <code>Helvetica</code></li>
+			<li>Schriftgröße Kommentare: <code>14px</code></li>
+			<li>Benutzer-Punkt zum Kopieren: <code>●</code></li>
+      <li><a href="{{ page.pict0gramm }}">Font mit pr0gramm-Icons</a> aka pict0gramm als ttf</li>
+		</ul>
+	</article>
+</li>
+
+<li>
+	<article>
+		<h2>Badges</h2>
+		<ul class="list-horizontal">
+			{% for badge in page.badges %}{% for lol in badge %}
+			<li><a href="{{ lol[1] }}"><img src="{{ lol[1] }}"></a></li>
+			{% endfor %}{% endfor %}
+		</ul>
+	</article>
+</li>
+
+<li>
+	<article>
+		<h2>Bilder und so</h2>
+		<ul>
+			<li><a href="{{ page.favicon }}">Favicon</a> als png</li>
+			<li><a href="{{ page.header_image }}">Header-Bild</a> als png</li>
+			<li><a href="{{ page.svg }}">pr0gramm-Logo</a> als svg</li>
+			<li><a href="{{ page.favicon_old }}">Favicon des alten pr0gramms</a> als ico mit mehreren Layern</li>
+			<li><a href="{{ page.dickbutt_highres }}">Dickbutt</a> als transparentes png in hoher Auflösung</li>
+			<li>Taste für Screenshots: <kbd>Druck</kbd> bzw. <kbd>Print</kbd></li>
+		</ul>
+	</article>
+</li>
+<li>
+	<article>
+		<h2>Sonstiges</h2>
+		<ul>
+			<li>IRC-Channel: <code>#pr0gramm.com</code> im Quakenet (kein NSFW/NSFL dort posten)</li>
+			<li><a href="{{ page.torrent }}">Post mit Torrent-Backup</a>. Circa <code>498 GiB</code>, Stand <time datetime="2015-05-2 00:12">2. Mai 2015 um 00:12 Uhr</time></li>
+			<li>Gewicht des Stahlofens: <code>80 kg</code></li>
+			<li><code>¯\_(ツ)_/¯</code></li>
+			<li>Hässliche Unicode-Checkmarks: <code>✓</code>, <code>✔</code>, <code>☑</code></li>
+			<li>Admin-approved-Schreibweise: <code>pr0gramm</code> oder <code>PR0GRAMM</code> (alles andere ist falsch)</li>
+			<li><a href="{{ page.source_code }}">Quelltext dieser Webseite</a></li>
+		</ul>
+	</article>
+</li>
+</ul>

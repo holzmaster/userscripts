@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+<div class="home">
+  <ul class="post-list">
+    {% for userscript in site.posts %}
+      <li>
+        <article>
+          <h2>{{ userscript.title }}
+            <small>von {% if userscript.author %}
+              {% for auth in userscript.author %}
+                <a class="author" href="{{ auth | prepend: "/user/" | prepend: site.pr0gramm_url }}">{{ auth }}</a>
+                {% if forloop.rindex0 > 0 %} und {% endif %}
+              {% endfor %}
+            {% endif %}</small>
+          </h2>
+
+          {{ userscript.content }}
+
+          <div class="links">
+            {% if userscript.link %}
+              <a class="pr0-button" href="{{ userscript.link }}">
+                {% if (userscript.categories contains "installable") %}
+                  Installieren
+                {% else %}
+                  Öffnen
+                {% endif %}
+              </a>
+            {% endif %}
+
+            {% if userscript.code %}
+              <a href="{{ userscript.code }}">Source Code</a>
+            {% endif %}
+
+            {% if userscript.presented %}
+              <a href="{{ userscript.presented | prepend: "/new/" | prepend: site.pr0gramm_url  }}">Post</a>
+            {% endif %}
+
+            {% if (userscript.categories contains "userscript") %}
+              <span class="badge">Userscript</span>
+            {% endif %}
+            {% if (userscript.categories contains "userstyle") %}
+              <span class="badge">Userstyle</span>
+            {% endif %}
+            {% if (userscript.categories contains "website") %}
+              <span class="badge">Webseite</span>
+            {% endif %}
+            {% if (userscript.categories contains "plugin") %}
+              <span class="badge">Browser-Plugin</span>
+            {% endif %}
+          </div>
+        </article>
+      </li>
+    {% endfor %}
+  </ul>
+    <h1>Wünsche</h1>
+    <div>
+      Bisher stehen keine Wünsche offen! Falls Du einen Wunsch hast, schreibe doch einen der hier aufgeführten Entwickler an und belästige diesen Hurensohn!
+    </div>
+</div>

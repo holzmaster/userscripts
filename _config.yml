@@ -1,0 +1,12 @@
+# Site settings
+title: pr0gramm Userscripts
+description: >
+  Eine Sammlung von Userscripts, Plugins, Userstyles, Eckdaten und weiteren Tools, die das tägliche Kellern erleichtern.
+baseurl: "/userscripts"
+url: "//pr0nopoly.github.io"
+pr0gramm_url: "//pr0gramm.com"
+pr0gramm_username: holzmaster
+github_username:  pr0nopoly
+
+# Build settings
+markdown: kramdown
