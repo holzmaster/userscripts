@@ -6,7 +6,7 @@ categories:
   - installable
 author: cRYPTOR
 presented: 1083759
-link: //pr0gramm.com/top/1083759:comment6775329
+link: //pr0gramm.com/new/1087510:comment6811039
 ---
 
 WEBMs per Hover pausieren und mit Scrollen spulen.
