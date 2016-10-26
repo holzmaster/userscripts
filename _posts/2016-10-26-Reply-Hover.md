@@ -11,11 +11,7 @@ code: //github.com/holzmaster/reply-hover
 ---
 
 Antwort-Kommentar via Hover.
-Aus
-
-![Vorschau 0](https://holzmaster.github.io/reply-hover/img/preview-0.png)
-
-wird beim Hovern über den Pfeil
+Beim Hovern über den Pfeil
 
 ![Vorschau 0](https://holzmaster.github.io/reply-hover/img/preview-1.png)
 
