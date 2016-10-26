@@ -4,8 +4,8 @@ title: "Reply-Hover"
 categories:
   - userscript
   - installable
-author: Mopsalarm
-presented: 1059290
+author: holzmaster
+presented: 1576602
 link: //github.com/holzmaster/reply-hover
 code: //github.com/holzmaster/reply-hover
 ---
