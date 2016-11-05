@@ -12,7 +12,7 @@ permalink: /developers/
 	<ul>
 		<li>Nahezu vollständige Implementierung der pr0gramm-API: <a href="//github.com/holzmaster/OpenPr0gramm">OpenPr0gramm</a>, geschrieben in C# 6 mit Support für TAP (async/await)</li>
 		<li>Java-API, die die <a href="//github.com/mopsalarm/Pr0">pr0gramm-Android-App</a> verwendet</li>
-		<li>Bald: Node.js-API (noch in Entwicklung)</li>
+		<li>Node.js-API, typisiert mit TypeScript: <a href="//github.com/holzmaster/node-pr0gramm-api">pr0gramm-api</a></li>
 	</ul>
 </section>
 <section>
