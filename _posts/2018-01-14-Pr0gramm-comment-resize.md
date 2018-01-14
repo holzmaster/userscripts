@@ -4,7 +4,7 @@ title: "Pr0gramm-comment-resize Userscript"
 categories:
   - userscript
   - installable
-author: Sh4der
+author: Lukariuss
 link: //github.com/Sh4der/pr0gramm-comments-resize/raw/master/pr0gramm-comments-resize.user.js
 code: //github.com/Sh4der/pr0gramm-comments-resize
 ---
