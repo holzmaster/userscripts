@@ -21,6 +21,7 @@ $pr0-header-background: rgba(0, 0, 0, 0.8);
 $pr0-headlink:		#f5f7f6;
 $article-background: #0a0a0b;
 $article-background-links: #0e0e0f;
+$hightlight-background: #222;
 
 $footer-background: $article-background-links;
 
@@ -191,7 +192,6 @@ article li {
 	color: $pr0-color;
 }
 
-
 .highlight {
-	background: #222;
+	background: $hightlight-background;
 }
