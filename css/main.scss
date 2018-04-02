@@ -198,3 +198,11 @@ article li {
 ul.no-list-bullets {
 	list-style-type: none;
 }
+
+section dl {
+	dt { margin-bottom: 5px; }
+	dd {
+		border-bottom: 1px solid #252525;
+		margin-bottom: 10px;
+	}
+}
