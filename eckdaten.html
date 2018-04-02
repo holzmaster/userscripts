@@ -86,12 +86,6 @@ pr0gramm_colors:
   -
     name: "Altes pr0gramm <3"
     color: ff0082
-  -
-    name: "Farbenkrieg 2.0: Team Rotschwuchteln"
-    color: c52b2f
-  -
-    name: "Farbenkrieg 2.0: Team Blauschwuchteln"
-    color: 337fd2
 
 epische_farben:
   -
@@ -109,6 +103,15 @@ epische_farben:
   -
     name: "altes Pink"
     color: ff0082
+
+farbenkrieg_2:
+  -
+    name: "Team Rotschwuchteln"
+    color: c52b2f
+  -
+    name: "Team Blauschwuchteln"
+        color: 337fd2
+
 badges:
   - keyb0ard: "//pr0gramm.com/media/badges/keyboard.png"
   - wichtel: "//pr0gramm.com/media/badges/secret-santa-2014.png"
@@ -155,17 +158,31 @@ comment_font_size: 14px
 </li>
 
 <li>
-	<article>
-		<h2>Farb-Themes</h2>
-		<ul>
-			{% for color in page.epische_farben %}
-			<li>
-				<span class="color-preview" style="color: #{{color.color}}; background-color: #{{color.color}}">#{{ color.color }}</span>
-				{{ color.name }} <code>#{{ color.color }}</code> (<a href="http://www.color-hex.com/color/{{color.color}}">Formate</a>)
-			</li>
-			{% endfor %}
-		</ul>
-	</article>
+    <article>
+      <h2>Farb-Themes</h2>
+      <ul>
+        {% for color in page.epische_farben %}
+        <li>
+          <span class="color-preview" style="color: #{{color.color}}; background-color: #{{color.color}}">#{{ color.color }}</span>
+          {{ color.name }} <code>#{{ color.color }}</code> (<a href="http://www.color-hex.com/color/{{color.color}}">Formate</a>)
+        </li>
+        {% endfor %}
+      </ul>
+    </article>
+  </li>
+
+<li>
+  <article>
+    <h2>Farbenkrieg 2.0s</h2>
+    <ul>
+      {% for color in page.farbenkrieg_2 %}
+      <li>
+        <span class="color-preview" style="color: #{{color.color}}; background-color: #{{color.color}}">#{{ color.color }}</span>
+        {{ color.name }} <code>#{{ color.color }}</code> (<a href="http://www.color-hex.com/color/{{color.color}}">Formate</a>)
+      </li>
+      {% endfor %}
+    </ul>
+  </article>
 </li>
 
 <li>

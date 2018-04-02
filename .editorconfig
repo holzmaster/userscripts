@@ -9,3 +9,7 @@ charset = utf-8
 indent_style = tab
 tab_width = 4
 indent_size = 4
+
+[eckdaten.html]
+indent_style = space
+indent_size = 2
