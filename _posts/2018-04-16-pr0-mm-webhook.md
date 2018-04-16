@@ -12,4 +12,4 @@ code: //github.com/Robinatus/pr0_mm_webhook
 
 Postet automatisiert in einem angegebenen Intervall die neusten Posts über einen Mattermost Incoming Webhook.
 
-![Vorschau 0](https://imgur.com/a/eEHVz)
+![Vorschau 0](https://i.imgur.com/G4etSMM.png)
