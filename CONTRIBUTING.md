@@ -13,7 +13,7 @@ title: "Der volle Titel deines Userscripts"
 categories:
   - userscript
   - application
-author: Robinatus
+author: <Dein-Pr0gramm-NUtzername>
 presented: <Post-ID, in der das Userscript vorgestellt wurde> 
 link: //github.com//zum/.user.js/wenn/vorhanden
 code: //github.com/link/zum/quelltext/wenn/vorhanden
@@ -22,5 +22,7 @@ code: //github.com/link/zum/quelltext/wenn/vorhanden
 <beschreibung>
 ```
 4. Ist die Datei gespeichert und gepusht, kannst du einen Pull-Request machen.
+
+Willst du kein Userscript, sondern ein Tool oder eine WEbseite hinzufügen, schau dir am Besten die bereits existierenden Einträge anderer Tools an.
 
 Ich freue mich auf deine Einträge!
