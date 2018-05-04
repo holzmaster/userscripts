@@ -13,7 +13,7 @@ title: "Der volle Titel deines Userscripts"
 categories:
   - userscript
   - application
-author: <Dein-Pr0gramm-NUtzername>
+author: <Dein-Pr0gramm-Nutzername>
 presented: <Post-ID, in der das Userscript vorgestellt wurde> 
 link: //github.com//zum/.user.js/wenn/vorhanden
 code: //github.com/link/zum/quelltext/wenn/vorhanden
