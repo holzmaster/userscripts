@@ -6,8 +6,8 @@ categories:
   - installable
 author: Frubi
 presented: 2252696 
-link: https://github.com/Frubi22/selfmade_m0d/raw/master/dist/bundle.user.js
-code: https://github.com/Frubi22/selfmade_m0d
+link: //github.com/Frubi22/selfmade_m0d/raw/master/dist/bundle.user.js
+code: //github.com/Frubi22/selfmade_m0d
 ---
 
 Selfmade M0d
