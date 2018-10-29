@@ -101,6 +101,7 @@ article h2 > small {
 
 $pr0-schwuchtel: #ffffff;
 $pr0-altschwuchtel: #5bb91c;
+$pr0-mittelaltschwuchtel: #addc8d;
 $pr0-neuschwuchtel: #e108e9;
 $pr0-admin: #ff9900;
 $pr0-gebannt: #444444;
@@ -123,6 +124,7 @@ $badge-color: #212121;
 .um7:after { color: $pr0-legende; }
 .um8:after { color: $pr0-wichtel; }
 .um9:after { color: $pr0-spender; }
+.um10:after { color: $pr0-mittelaltschwuchtel; }
 
 .badge {
 	color: #FFF;
