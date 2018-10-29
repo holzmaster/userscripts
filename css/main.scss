@@ -101,14 +101,17 @@ article h2 > small {
 
 $pr0-schwuchtel: #ffffff;
 $pr0-altschwuchtel: #5bb91c;
+$pr0-mittelaltschwuchtel: #addc8d;
 $pr0-neuschwuchtel: #e108e9;
 $pr0-admin: #ff9900;
 $pr0-gebannt: #444444;
 $pr0-moderator: #008fff;
+$pr0-altmoderator: #7fc7ff;
 $pr0-ftb: #6c432b;
 $pr0-legende: #1cb992;
 $pr0-wichtel: #1cb992;
 $pr0-spender: #1cb992;
+$pr0-communityhelfer: #c52b2f;
 
 $badge-color: #212121;
 
@@ -123,6 +126,9 @@ $badge-color: #212121;
 .um7:after { color: $pr0-legende; }
 .um8:after { color: $pr0-wichtel; }
 .um9:after { color: $pr0-spender; }
+.um10:after { color: $pr0-mittelaltschwuchtel; }
+.um11:after { color: $pr0-altmoderator; }
+.um12:after { color: $pr0-communityhelfer; }
 
 .badge {
 	color: #FFF;
