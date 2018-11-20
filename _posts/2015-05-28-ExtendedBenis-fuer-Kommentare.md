@@ -6,8 +6,8 @@ categories:
   - installable
 author: holzmaster
 presented: 643743
-link: //github.com/pr0nopoly/comment-mausfaul
-code: //github.com/pr0nopoly/comment-mausfaul
+link: //github.com/holzmaster/comment-mausfaul
+code: //github.com/holzmaster/comment-mausfaul
 ---
 
 Die Benis-Zahlen eines Kommentars direkt neben dem Username!
