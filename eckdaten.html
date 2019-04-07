@@ -248,7 +248,7 @@ comment_font_size: 14px
 		<h2>Badges</h2>
 		<ul class="list-horizontal">
 			{% for badge in page.badges %}{% for lol in badge %}
-			<li><a href="{{ lol[1] }}"><img src="{{ lol[1] }}"></a></li>
+			<li><a href="{{ lol[1] }}"><img style="max-width: 30px; min-width: 30px;" src="{{ lol[1] }}"></a></li>
 			{% endfor %}{% endfor %}
 		</ul>
 	</article>
