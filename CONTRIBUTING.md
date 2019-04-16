@@ -23,6 +23,6 @@ code: //github.com/link/zum/quelltext/wenn/vorhanden
 ```
 4. Ist die Datei gespeichert und gepusht, kannst du einen Pull-Request machen.
 
-Willst du kein Userscript, sondern ein Tool oder eine WEbseite hinzufügen, schau dir am Besten die bereits existierenden Einträge anderer Tools an.
+Willst du kein Userscript, sondern ein Tool oder eine Webseite hinzufügen, schau dir am Besten die bereits existierenden Einträge anderer Tools an.
 
 Ich freue mich auf deine Einträge!
