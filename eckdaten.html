@@ -59,7 +59,7 @@ user_titles:
     name: Lebende Legende
     css: um7
     color: 1cb992
-  - 
+  -
     name: Community-Helfer
     css: um12
     color: c52b2f
@@ -177,8 +177,34 @@ comment_font_size: 14px
 <li>
 	<article>
 		<h2>Farben</h2>
+		<table class="color-table">
+			<thead>
+				<tr>
+					<td>Vorschau</td>
+					<td>Name</td>
+					<td>Farbcode</td>
+					<td>Andere Formate</td>
+				</tr>
+			</thead>
+			<tbody>
+				{% for color in page.pr0gramm_colors %}
+				<tr>
+					<td><span class="color-preview" style="color: #{{color.color}}; background-color: #{{color.color}}">#{{ color.color }}</span></td>
+					<td>{{ color.name }}</td>
+					<td><code>#{{ color.color }}</code></td>
+					<td><a href="http://www.color-hex.com/color/{{color.color}}">Formate</a></td>
+				</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+	</article>
+</li>
+
+<li>
+	<article>
+		<h2>Farb-Themes</h2>
 		<ul>
-			{% for color in page.pr0gramm_colors %}
+			{% for color in page.epische_farben %}
 			<li>
 				<span class="color-preview" style="color: #{{color.color}}; background-color: #{{color.color}}">#{{ color.color }}</span>
 				{{ color.name }} <code>#{{ color.color }}</code> (<a href="http://www.color-hex.com/color/{{color.color}}">Formate</a>)
@@ -189,31 +215,17 @@ comment_font_size: 14px
 </li>
 
 <li>
-    <article>
-      <h2>Farb-Themes</h2>
-      <ul>
-        {% for color in page.epische_farben %}
-        <li>
-          <span class="color-preview" style="color: #{{color.color}}; background-color: #{{color.color}}">#{{ color.color }}</span>
-          {{ color.name }} <code>#{{ color.color }}</code> (<a href="http://www.color-hex.com/color/{{color.color}}">Formate</a>)
-        </li>
-        {% endfor %}
-      </ul>
-    </article>
-  </li>
-
-<li>
-  <article>
-    <h2>Farbenkrieg 2.0</h2>
-    <ul>
-      {% for color in page.farbenkrieg_2 %}
-      <li>
-        <span class="color-preview" style="color: #{{color.color}}; background-color: #{{color.color}}">#{{ color.color }}</span>
-        {{ color.name }} <code>#{{ color.color }}</code> (<a href="http://www.color-hex.com/color/{{color.color}}">Formate</a>)
-      </li>
-      {% endfor %}
-    </ul>
-  </article>
+	<article>
+		<h2>Farbenkrieg 2.0</h2>
+		<ul>
+			{% for color in page.farbenkrieg_2 %}
+			<li>
+				<span class="color-preview" style="color: #{{color.color}}; background-color: #{{color.color}}">#{{ color.color }}</span>
+				{{ color.name }} <code>#{{ color.color }}</code> (<a href="http://www.color-hex.com/color/{{color.color}}">Formate</a>)
+			</li>
+			{% endfor %}
+		</ul>
+	</article>
 </li>
 
 <li>
