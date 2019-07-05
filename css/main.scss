@@ -196,9 +196,14 @@ article li {
 
 .color-table {
 	width: 100%;
+	border-collapse: collapse;
 
 	& tr > td:first-child { text-align: right; }
 	& tr > td:nth-child(2) { text-align: justify; }
+	& td {
+		border-bottom: 1px solid #161618;
+		padding: 1px 1px 2px 4px
+	}
 }
 
 .herzlol {
