@@ -114,6 +114,7 @@ $pr0-spender: #1cb992;
 $pr0-communityhelfer: #c52b2f;
 $pr0-nutzerbot: #10366f;
 $pr0-systembot: #ffc166;
+#pr0-alt-helfer: #ea9fa1;
 
 $badge-color: #212121;
 
@@ -133,6 +134,7 @@ $badge-color: #212121;
 .um12:after { color: $pr0-communityhelfer; }
 .um13:after { color: $pr0-nutzerbot; }
 .um14:after { color: $pr0-systembot; }
+.um15:after { color: $pr0-alt-helfer; }
 
 .badge {
 	color: #FFF;
