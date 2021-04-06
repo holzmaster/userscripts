@@ -170,13 +170,16 @@ article li {
 	}
 }
 
-.list-horizontal > li {
-	display: inline;
-	margin: 2px;
-	list-style: none;
+.badge-inline-list {
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
 
-	&:before {
-		content: '';
+	.badge {
+		img {
+			max-width: 30px;
+			min-width: 30px;
+		}
 	}
 }
 
