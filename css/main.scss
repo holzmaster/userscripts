@@ -197,7 +197,14 @@ article li {
 	width: 100%;
 	border-collapse: collapse;
 
-	& tr > td:first-child { text-align: right; }
+	& tr > td:first-child {
+		text-align: right;
+		width: 80px;
+	}
+	& tr > td:last-child {
+		width: 100px;
+	}
+
 	& tr > td:nth-child(2) { text-align: justify; }
 	& td {
 		border-bottom: 1px solid #161618;
