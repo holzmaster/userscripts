@@ -213,7 +213,7 @@ article li {
 	background: $hightlight-background;
 }
 
-ul.no-list-bullets {
+@mixin no-list-bullets {
 	list-style-type: none;
 }
 
@@ -224,9 +224,17 @@ section dl {
 		margin-bottom: 10px;
 	}
 }
+
 section.badges {
 	dl.badge-list dt {
 		display: block;
+
+		ul {
+			@include no-list-bullets;
+			li:before {
+				content: "";
+			}
+		}
 	}
 }
 
