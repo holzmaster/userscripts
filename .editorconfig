@@ -5,14 +5,10 @@ insert_final_newline = true
 end_of_line = lf
 charset = utf-8
 
-[*.{js,ts,json,html}]
+[*.{js,ts,json,html,css,scss}]
 indent_style = tab
 tab_width = 4
 indent_size = 4
-
-[*.{css,scss}]
-indent_size = 2
-indent_style = space
 
 [eckdaten.html]
 indent_style = space

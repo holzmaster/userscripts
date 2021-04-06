@@ -1,9 +1,6 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
-
-
 
 // Our variables
 $base-font-family: sans-serif, Helvetica, Arial;
@@ -216,9 +213,6 @@ article li {
 	background: $hightlight-background;
 }
 
-.badge-container {
-	// TODO
-}
 ul.no-list-bullets {
 	list-style-type: none;
 }
@@ -230,5 +224,11 @@ section dl {
 		margin-bottom: 10px;
 	}
 }
+section.badges {
+	dl.badge-list dt {
+		display: block;
+	}
+}
+
 .team-rot { color: #c52b2f }
 .team-blau { color: #337fd2 }
