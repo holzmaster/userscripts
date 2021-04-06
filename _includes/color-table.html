@@ -1,0 +1,20 @@
+<table class="color-table">
+	<thead>
+		<tr>
+			<td>Vorschau</td>
+			<td>Name</td>
+			<td>Farbcode</td>
+			<td>Andere Formate</td>
+		</tr>
+	</thead>
+	<tbody>
+		{% for color in include.colors %}
+		<tr>
+			<td><span class="color-preview" style="color: #{{color.color}}; background-color: #{{color.color}}">#{{ color.color }}</span></td>
+			<td>{{ color.name }}</td>
+			<td><code>#{{ color.color }}</code></td>
+			<td><a href="http://www.color-hex.com/color/{{color.color}}" {% if color.css != '' %}title="CSS-Klasse: {{ color.css }}"{% endif %}>Formate</a></td>
+		</tr>
+		{% endfor %}
+	</tbody>
+</table>

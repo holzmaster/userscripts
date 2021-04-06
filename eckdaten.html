@@ -209,68 +209,28 @@ comment_font_size: 14px
 <li>
 	<article>
 		<h2>Farben</h2>
-		<table class="color-table">
-			<thead>
-				<tr>
-					<td>Vorschau</td>
-					<td>Name</td>
-					<td>Farbcode</td>
-					<td>Andere Formate</td>
-				</tr>
-			</thead>
-			<tbody>
-				{% for color in page.pr0gramm_colors %}
-				<tr>
-					<td><span class="color-preview" style="color: #{{color.color}}; background-color: #{{color.color}}">#{{ color.color }}</span></td>
-					<td>{{ color.name }}</td>
-					<td><code>#{{ color.color }}</code></td>
-					<td><a href="http://www.color-hex.com/color/{{color.color}}">Formate</a></td>
-				</tr>
-				{% endfor %}
-			</tbody>
-		</table>
+		{% include color-table.html colors=page.pr0gramm_colors %}
 	</article>
 </li>
 
 <li>
 	<article>
 		<h2>Farb-Themes</h2>
-		<ul>
-			{% for color in page.epische_farben %}
-			<li>
-				<span class="color-preview" style="color: #{{color.color}}; background-color: #{{color.color}}">#{{ color.color }}</span>
-				{{ color.name }} <code>#{{ color.color }}</code> (<a href="http://www.color-hex.com/color/{{color.color}}">Formate</a>)
-			</li>
-			{% endfor %}
-		</ul>
+		{% include color-table.html colors=page.epische_farben %}
 	</article>
 </li>
 
 <li>
 	<article>
 		<h2>Farbenkrieg 2.0</h2>
-		<ul>
-			{% for color in page.farbenkrieg_2 %}
-			<li>
-				<span class="color-preview" style="color: #{{color.color}}; background-color: #{{color.color}}">#{{ color.color }}</span>
-				{{ color.name }} <code>#{{ color.color }}</code> (<a href="http://www.color-hex.com/color/{{color.color}}">Formate</a>)
-			</li>
-			{% endfor %}
-		</ul>
+		{% include color-table.html colors=page.farbenkrieg_2 %}
 	</article>
 </li>
 
 <li>
 	<article>
 		<h2>Benutzertitel</h2>
-		<ul>
-			{% for status in page.user_titles %}
-			<li class="user {{ status.css }}">
-				<span class="color-preview" style="color: #{{status.color}}; background-color: #{{status.color}}">#{{ status.color }}</span>
-				{{ status.name }} <code>#{{ status.color }}</code> (<a href="http://www.color-hex.com/color/{{status.color}}" title="CSS-Klasse: {{ status.css }}">Formate</a>)
-			</li>
-			{% endfor %}
-		</ul>
+		{% include color-table.html colors=page.user_titles %}
 	</article>
 </li>
 
