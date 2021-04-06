@@ -119,6 +119,10 @@ dl, dt, dd, dl p {
 	font-color: #444;
 }
 
+dl.badge-list {
+
+}
+
 dl dt {
   font-weight: bold;
 }
