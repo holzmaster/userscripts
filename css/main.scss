@@ -197,12 +197,16 @@ article li {
 	width: 100%;
 	border-collapse: collapse;
 
-	& tr > td:first-child {
+	dt.color-preview-column {
 		text-align: right;
 		width: 80px;
 	}
-	& tr > td:last-child {
-		width: 100px;
+	td.color-code-column {
+		text-align: right;
+		width: 85px;
+	}
+	td.format-column {
+		width: 120px;
 	}
 
 	& tr > td:nth-child(2) { text-align: justify; }
