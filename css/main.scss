@@ -156,8 +156,8 @@ article .links > a {
 }
 
 .color-preview {
-    font-size: 12px;
-    font-family: monospace;
+	font-size: 12px;
+	font-family: monospace;
 }
 
 article li {
@@ -200,6 +200,9 @@ article li {
 	dt.color-preview-column {
 		text-align: right;
 		width: 80px;
+	}
+	.color-name-column {
+		width: 100%;
 	}
 	td.color-code-column {
 		text-align: right;
