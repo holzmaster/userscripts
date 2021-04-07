@@ -249,17 +249,23 @@ section.badges {
 	dl.badge-list dt {
 		display: block;
 
-		li {
+		ul {
 			display: flex;
-			align-items: center;
+			flex-direction: column;
 			gap: 10px;
 
-			.badge-preview {
-				min-width: 50px;
-				text-align: right;
-			}
-			.badge-description {
+			li {
+				display: flex;
+				align-items: center;
+				gap: 10px;
 
+				.badge-preview {
+					min-width: 50px;
+					text-align: right;
+				}
+				.badge-description {
+
+				}
 			}
 		}
 	}
