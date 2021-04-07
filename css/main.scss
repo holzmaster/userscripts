@@ -161,7 +161,7 @@ article .links > a {
 	font-family: monospace;
 }
 
-article li {
+.custom-dashed-list li {
 	list-style: none;
 	text-indent: -1.5em;
 	padding-left: 1.5em;
@@ -249,10 +249,17 @@ section.badges {
 	dl.badge-list dt {
 		display: block;
 
-		ul {
-			@include no-list-bullets;
-			li:before {
-				content: "";
+		li {
+			display: flex;
+			align-items: center;
+			gap: 10px;
+
+			.badge-preview {
+				min-width: 50px;
+				text-align: right;
+			}
+			.badge-description {
+
 			}
 		}
 	}
