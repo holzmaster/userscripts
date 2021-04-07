@@ -170,12 +170,14 @@ article li {
 	}
 }
 
-.badge-inline-list {
+.badge-list-inline {
 	display: flex;
 	gap: 10px;
 	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
 
-	.badge {
+	.badge-list-item {
 		img {
 			max-width: 30px;
 			min-width: 30px;

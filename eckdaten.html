@@ -250,9 +250,9 @@ comment_font_size: 14px
 <li>
 	<article>
 		<h2>Badges</h2>
-		<div class="badge-inline-list">
+		<div class="badge-list-inline">
 			{%- for badge_data in page.badges -%}
-				<a href="{{ badge_data[1] }}" class="badge">
+				<a href="{{ badge_data[1] }}" class="badge-list-item">
 					<img alt="{{ badge_data[0] }}" src="{{ badge_data[1] }}">
 				</a>
 			{%- endfor -%}
