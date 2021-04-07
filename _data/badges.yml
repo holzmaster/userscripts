@@ -1,195 +1,195 @@
 keyb0ard:
-  url: "//pr0gramm.com/media/badges/keyboard.png"
+  image: "//pr0gramm.com/media/badges/keyboard.png"
   description: "Brachte uns das pr0gramm Keyboard - 30. Nov 2014"
   link: //pr0gramm.com/top/keyb0ard
 wichtel:
-  url: "//pr0gramm.com/media/badges/secret-santa-2014.png"
+  image: "//pr0gramm.com/media/badges/secret-santa-2014.png"
   description: "Nahm am Wichteln 20XX teil"
   link: //pr0gramm.com/top/wichteln
 hurensohn:
-  url: "//pr0gramm.com/media/badges/bad-secret-santa-2014.png"
+  image: "//pr0gramm.com/media/badges/bad-secret-santa-2014.png"
   description: "Hat beim Wichteln 20XX kein Geschenk verschickt"
   link: //pr0gramm.com/top/wichteln
 years:
-  url: "//pr0gramm.com/media/badges/years.png"
+  image: "//pr0gramm.com/media/badges/years.png"
   description: "Hat X Jahre auf pr0gramm verschwendet "
 comments:
-  url: "//pr0gramm.com/media/badges/comments.png"
+  image: "//pr0gramm.com/media/badges/comments.png"
   description: "Hat mehr als X Kommentare verfasst"
 tags:
-  url: "//pr0gramm.com/media/badges/tags.svg"
+  image: "//pr0gramm.com/media/badges/tags.svg"
   description: "Hat mehr als X Tags gesetzt."
+coin:
+  image: "//pr0gramm.com/media/badges/pr0-coin.png"
+  description: "Hat X Tage pr0mium erschürft"
+  link: //pr0gramm.com/top/2043677
+pr0mart:
+  image: "//pr0gramm.com/media/badges/shopping-cart.png"
+  description: "Kommerzhure"
+  link: //pr0mart.com
 
 fag:
-  url: "//pr0gramm.com/media/badges/social-share.png"
+  image: "//pr0gramm.com/media/badges/social-share.png"
   description: "Hat auf einen der Social Share Buttons gedrückt. - 1. Apr 2015"
   link: //pr0gramm.com/top/april
 
 benitrat0r_lose:
-  url: "//pr0gramm.com/media/badges/benitrat0r-lose.png"
+  image: "//pr0gramm.com/media/badges/benitrat0r-lose.png"
   description: "Hat X Benis gewonnen - 1. Apr 2017"
   link: //pr0gramm.com/top/1850207
 benitrat0r_win:
-  url: "//pr0gramm.com/media/badges/benitrat0r-win.png"
+  image: "//pr0gramm.com/media/badges/benitrat0r-win.png"
   description: "Hat X Benis verzockt - 1. Apr 2017"
   link: //pr0gramm.com/top/1850207
 
 contract:
-  url: "//pr0gramm.com/media/badges/contract.png"
+  image: "//pr0gramm.com/media/badges/contract.png"
   description: "Hat X Benis geliehen und erfolgreich zurückgezahlt - 1. Apr 2017"
   link: //pr0gramm.com/top/1851768
 crumbled_contract:
-  url: "//pr0gramm.com/media/badges/crumbled-contract.png"
+  image: "//pr0gramm.com/media/badges/crumbled-contract.png"
   description: "Hat X Benis geliehen und bekam Besuch vom Inkassobüro - 1. Apr 2017"
   link: //pr0gramm.com/top/1851768
 
-coin:
-  url: "//pr0gramm.com/media/badges/pr0-coin.png"
-  description: "Hat X Tage pr0mium erschürft"
-  link: //pr0gramm.com/top/2043677
-pr0mart:
-  url: "//pr0gramm.com/media/badges/shopping-cart.png"
-  description: "Kommerzhure"
-  link: //pr0mart.com
 
 connect4_red:
-  url: "//pr0gramm.com/media/badges/connect4-red.png"
+  image: "//pr0gramm.com/media/badges/connect4-red.png"
   description: "Ging am 1. April 2018 siegreich hervor - 2. Apr 2018"
   link: //pr0gramm.com/top/2472492
 connect4_blue:
-  url: "//pr0gramm.com/media/badges/connect4-blue.png"
+  image: "//pr0gramm.com/media/badges/connect4-blue.png"
   description: "Wurde am 1. April 2018 hart penetriert - 1. Apr 2018"
   link: //pr0gramm.com/top/2472492
 
 deleted_upload:
-  url: "//pr0gramm.com/media/badges/itemdelete.svg"
+  image: "//pr0gramm.com/media/badges/itemdelete.svg"
   description: "Hat X eigene Hochlads löschen lassen"
 deleted_comments:
-  url: "//pr0gramm.com/media/badges/commentdelete.svg"
+  image: "//pr0gramm.com/media/badges/commentdelete.svg"
   description: "Hat X eigene Kommentare löschen lassen"
 
 krebs_spende:
-  url: "//pr0gramm.com/media/badges/krebs-donation.png"
+  image: "//pr0gramm.com/media/badges/krebs-donation.png"
   description: "Hat gegen Krebs gespendet - 8. Mai 2018"
   link: //pr0gramm.com/top/Das%20pr0%20spendet
 krebs_spende_starter:
-  url: "//pr0gramm.com/media/badges/krebs-starter.png"
+  image: "//pr0gramm.com/media/badges/krebs-starter.png"
   description: "Hat als wahrer Ehrenmann die größte Aktion des pr0s losgetreten - 8. Mai 2018"
   link: //pr0gramm.com/top/Das%20pr0%20spendet
 
 artikel_13:
-  url: "//pr0gramm.com/media/badges/art13.png"
+  image: "//pr0gramm.com/media/badges/art13.png"
   description: "Die Feder ist mächtiger als das Schwert - 19. Sep 2018"
   link: //pr0gramm.com/new/das%20pr0%20schreibt
 
 benitrat0r_2019_win:
-  url: "//pr0gramm.com/media/badges/benitrator-win.png"
+  image: "//pr0gramm.com/media/badges/benitrator-win.png"
   description: "Hat im März 2019 nach X Drehs X Benis gewonnen - 31. Mär 2019"
   link: //pr0gramm.com/top/3084263
 benitrat0r_2019_lose:
-  url: "//pr0gramm.com/media/badges/benitrator-lose.png"
-  description: "benitrator-lose 	Hat im März 2019 nach X Drehs X Benis verzockt - 31. Mär 2019"
+  image: "//pr0gramm.com/media/badges/benitrator-lose.png"
+  description: "Hat im März 2019 nach X Drehs X Benis verzockt - 31. Mär 2019"
   link: //pr0gramm.com/top/3084263
 
 reinlad:
-  url: "//pr0gramm.com/media/badges/paint-silver.png"
+  image: "//pr0gramm.com/media/badges/paint-silver.png"
   description: "Hat am 1. April 2019 einen Reinlad erstellt - 1. Apr 2019"
   link: //pr0gramm.com/top/3121461
 profi_reinlad:
-  url: "//pr0gramm.com/media/badges/paint-gold.png"
+  image: "//pr0gramm.com/media/badges/paint-gold.png"
   description: "Hat am 1. April 2019 einen Profi Reinlad erstellt - 1. Apr 2019"
   link: //pr0gramm.com/top/3121461
 
 krebs_spende_2019:
-  url: "//pr0gramm.com/media/badges/krebs19-donation.png"
+  image: "//pr0gramm.com/media/badges/krebs19-donation.png"
   description: "Hat 2019 gegen Krebs gespendet - 2. Apr 2019"
   link: //pr0gramm.com/top/krebsspende
 good_noodle:
-  url: "//pr0gramm.com/media/badges/good-noodle.png"
+  image: "//pr0gramm.com/media/badges/good-noodle.png"
   description: "Ist eine gute Nudel und hat 2020 etwas Gutes getan - 27. Mär 2020"
   link: //pr0gramm.com/top/3770179
 
 benitrator20_win:
-  url: "//pr0gramm.com/media/badges/benitrator20-win.png"
+  image: "//pr0gramm.com/media/badges/benitrator20-win.png"
   description: "Hat im März 2020 nach X Drehs X Benis gewonnen - 31. Mär 2020"
   link: //pr0gramm.com/top/3770179
 benitrator20_lose:
-  url: "//pr0gramm.com/media/badges/benitrator20-lose.png"
+  image: "//pr0gramm.com/media/badges/benitrator20-lose.png"
   description: "Hat im März 2020 nach X Drehs X Benis verzockt - 31. Mär 2020"
   link: //pr0gramm.com/top/3770179
 
 pr0rona_mask:
-  url: "//pr0gramm.com/media/badges/pr0rona-mask.png"
+  image: "//pr0gramm.com/media/badges/pr0rona-mask.png"
   description: "Hat sich am 1. April 2020 nicht mit pr0rona infiziert - 1. Apr 2020"
   link: //pr0gramm.com/user/pr0gramm/uploads/nachrichtenpr0gramm
 pr0rona_globuli:
-  url: "//pr0gramm.com/media/badges/pr0rona-globuli.png"
+  image: "//pr0gramm.com/media/badges/pr0rona-globuli.png"
   description: "Hat sich am 1. April 2020 mit pr0rona infiziert und wurde geheilt - 1. Apr 2020"
   link: //pr0gramm.com/user/pr0gramm/uploads/nachrichtenpr0gramm
 pr0rona_thermometer:
-  url: "//pr0gramm.com/media/badges/pr0rona-thermometer.png"
+  image: "//pr0gramm.com/media/badges/pr0rona-thermometer.png"
   description: "Hat sich am 1. April 2020 mit pr0rona infiziert und muss mit den Folgen leben - 1. Apr 2020"
   link: //pr0gramm.com/user/pr0gramm/uploads/nachrichtenpr0gramm
 pr0rona_beer:
-  url: "//pr0gramm.com/media/badges/pr0rona-beer.png"
+  image: "//pr0gramm.com/media/badges/pr0rona-beer.png"
   description: "Hat am 1. April 2020 mehr als 100 Rollen Klopapier gehortet - 1. Apr 2020"
   link: //pr0gramm.com/user/pr0gramm/uploads/nachrichtenpr0gramm
 pr0rona_toiletpaper:
-  url: "//pr0gramm.com/media/badges/pr0rona-toiletpaper.png"
+  image: "//pr0gramm.com/media/badges/pr0rona-toiletpaper.png"
   description: "Hat am 1. April 2020 mehr als 1000 Liter Bier gehortet - 1. Apr 2020"
   link: //pr0gramm.com/user/pr0gramm/uploads/nachrichtenpr0gramm
 backpack:
-  url: "//pr0gramm.com/media/badges/backpack.png"
+  image: "//pr0gramm.com/media/badges/backpack.png"
   description: "XxKlopapier - 2. Apr 2020 "
   link: //pr0gramm.com/top/3793877
 
 donation_2021:
-  url: "//pr0gramm.com/media/badges/donation_2021.png"
+  image: "//pr0gramm.com/media/badges/donation_2021.png"
   description: "Hat sich mit seiner Spende im März 2021 am 1. Mio. Meilestein beteiligt - 31. Mär 2021"
   link: //pr0gramm.com/top/4482775
 
 casino_winner:
-  url: "//pr0gramm.com/media/badges/casino_winner.png"
+  image: "//pr0gramm.com/media/badges/casino_winner.png"
   description: "Hat im CASINO PR0YALE X Credits / X Benis gewonnen - 31. Mär 2021"
   link: //pr0gramm.com/top/4467685
 casino_loser:
-  url: "//pr0gramm.com/media/badges/casino_loser.png"
+  image: "//pr0gramm.com/media/badges/casino_loser.png"
   description: "Die Bank gewinnt immer. X Credits / X Benis im CASINO PR0YALE verzockt - 31. Mär 2021"
   link: //pr0gramm.com/top/4467685
 casino_jackpot:
-  url: "//pr0gramm.com/media/badges/casino_jackpot.png"
+  image: "//pr0gramm.com/media/badges/casino_jackpot.png"
   description: "Jackpott - 31. Mär 2021"
   link: //pr0gramm.com/top/4467685
 casino_king:
-  url: "//pr0gramm.com/media/badges/casino_king.png"
+  image: "//pr0gramm.com/media/badges/casino_king.png"
   description: "Casino King - 31. Mär 2021"
   link: //pr0gramm.com/top/4467685
 casino_roulette:
-  url: "//pr0gramm.com/media/badges/casino_roulette.png"
+  image: "//pr0gramm.com/media/badges/casino_roulette.png"
   description: "Roulette - 31. Mär 2021"
   link: //pr0gramm.com/top/4467685
 casino_gewinnertyp:
-  url: "//pr0gramm.com/media/badges/casino_gewinnertyp.png"
+  image: "//pr0gramm.com/media/badges/casino_gewinnertyp.png"
   description: "Gewinnertyp - 31. Mär 2021"
   link: //pr0gramm.com/top/4467685
 casino_hooker:
-  url: "//pr0gramm.com/media/badges/casino_hooker.png"
+  image: "//pr0gramm.com/media/badges/casino_hooker.png"
   description: "Blackjack and Hookers - 31. Mär 2021"
   link: //pr0gramm.com/top/4467685
 
 stonks_gain:
-  url: "//pr0gramm.com/media/badges/stonks-gain.png"
+  image: "//pr0gramm.com/media/badges/stonks-gain.png"
   description: "Hat am Stonk-Market X BNS gewonnen - 1. Apr 2021"
   link: //pr0gramm.com/top/4484835
 stonks_crash:
-  url: "//pr0gramm.com/media/badges/stonks-crash.png"
+  image: "//pr0gramm.com/media/badges/stonks-crash.png"
   description: "Hat am Stonk-Market X BNS verzockt - 1. Apr 2021"
   link: //pr0gramm.com/top/4484835
 stonks_diamond_paws:
-  url: "//pr0gramm.com/media/badges/stonks-diamond-paws.png"
+  image: "//pr0gramm.com/media/badges/stonks-diamond-paws.png"
   description: "Hat X $KDSE gekauft und bis zum Schluss gehalten - 1. Apr 2021"
   link: //pr0gramm.com/top/4484835
 stonks_jrmy:
-  url: "//pr0gramm.com/media/badges/stonks-jrmy.png"
+  image: "//pr0gramm.com/media/badges/stonks-jrmy.png"
   description: "Hat X $JRMY für durchschnittlich X BNS gekauft - 1. Apr 2021"
   link: //pr0gramm.com/top/4489326

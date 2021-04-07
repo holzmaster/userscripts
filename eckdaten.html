@@ -205,8 +205,8 @@ comment_font_size: 14px
 		<h2>Badges</h2>
 		<div class="badge-list-inline">
 			{%- for badge in site.data.badges -%}
-				<a href="{{ badge[1].url }}" class="badge-list-item">
-					<img alt="{{ badge[0] }}" title="{{ badge[1].description }}" src="{{ badge[1].url }}">
+				<a href="{{ badge[1].image }}" class="badge-list-item">
+					<img alt="{{ badge[0] }}" title="{{ badge[1].description }}" src="{{ badge[1].image }}">
 				</a>
 			{%- endfor -%}
 		</div>

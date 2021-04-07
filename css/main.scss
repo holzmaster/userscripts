@@ -262,6 +262,10 @@ section.badges {
 				.badge-preview {
 					min-width: 50px;
 					text-align: right;
+
+					img[src$=".svg"] {
+						height: 27px;
+					}
 				}
 				.badge-description {
 

@@ -11,7 +11,7 @@ permalink: /miniwiki/
 		<div>
 			<dt class="badge-container">
 				<ul>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/years.png"></span><span class="badge-description">TODO</span></li>
+					{% include badge-entry.html badge=site.data.badges.years %}
 				</ul>
 			</dt>
 			<dd>
@@ -24,8 +24,8 @@ permalink: /miniwiki/
 		<div>
 			<dt class="badge-container">
 				<ul>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/comments.png"></span><span class="badge-description">TODO</span></li>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/tags.svg"></span><span class="badge-description">TODO</span></li>
+					{% include badge-entry.html badge=site.data.badges.comments %}
+					{% include badge-entry.html badge=site.data.badges.tags %}
 				</ul>
 			</dt>
 			<dd>
@@ -40,8 +40,8 @@ permalink: /miniwiki/
 		<div>
 			<dt class="badge-container">
 				<ul>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/itemdelete.svg" style="height: 27px;"></span><span class="badge-description">TODO</span></li>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/commentdelete.svg" style="height: 27px;"></span><span class="badge-description">TODO</span></li>
+					{% include badge-entry.html badge=site.data.badges.deleted_upload %}
+					{% include badge-entry.html badge=site.data.badges.deleted_comments %}
 				</ul>
 			</dt>
 			<dd>
@@ -60,7 +60,7 @@ permalink: /miniwiki/
 		<div>
 			<dt class="badge-container">
 				<ul>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/pr0-coin.png"></span><span class="badge-description">TODO</span></li>
+					{% include badge-entry.html badge=site.data.badges.coin %}
 				</ul>
 			</dt>
 			<dd>
@@ -83,7 +83,7 @@ permalink: /miniwiki/
 		<div>
 			<dt class="badge-container">
 				<ul>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/shopping-cart.png"></span><span class="badge-description">TODO</span></li>
+					{% include badge-entry.html badge=site.data.badges.pr0mart %}
 				</ul>
 			</dt>
 			<dd>
@@ -93,8 +93,8 @@ permalink: /miniwiki/
 		<div>
 			<dt class="badge-container">
 				<ul>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/secret-santa-2014.png"></span><span class="badge-description">TODO</span></li>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/bad-secret-santa-2014.png"></span><span class="badge-description">TODO</span></li>
+					{% include badge-entry.html badge=site.data.badges.wichtel %}
+					{% include badge-entry.html badge=site.data.badges.hurensohn %}
 				</ul>
 			</dt>
 			<dd>
@@ -135,7 +135,7 @@ permalink: /miniwiki/
 		<div>
 			<dt class="badge-container">
 				<ul>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/keyboard.png"></span><span class="badge-description">TODO</span></li>
+					{% include badge-entry.html badge=site.data.badges.keyboard %}
 				</ul>
 			</dt>
 			<dd>
@@ -157,15 +157,14 @@ permalink: /miniwiki/
 						<!-- TODO: Fehlt hier wer? -->
 					</ul>
 				</p>
-				<p>Bei dem Zusammenbau und der Entwicklung waren auch noch weitere User beteiligt, die allerdings kein
-					Badge
-					erhielten (<a href="//pr0gramm.com/top/keyb0ard/454701">src</a>).</p>
+				<p>Bei dem Zusammenbau und der Entwicklung waren auch noch weitere User beteiligt, die allerdings kein Badge erhielten (<a href="//pr0gramm.com/top/keyb0ard/454701">src</a>).</p>
 				<p>Relatierte Tags: <code>keyb0ard</code>, <code>stoertebeker</code></p>
 			</dd>
 		</div>
 		<div>
 			<dt class="badge-container">
 				<ul>
+					{% include badge-entry.html badge=site.data.badges.fag %}
 					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/social-share.png"></span><span class="badge-description">TODO</span></li>
 				</ul>
 			</dt>
@@ -180,8 +179,8 @@ permalink: /miniwiki/
 		<div>
 			<dt class="badge-container">
 				<ul>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/benitrat0r-lose.png"></span><span class="badge-description">TODO</span></li>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/benitrat0r-win.png"></span><span class="badge-description">TODO</span></li>
+					{% include badge-entry.html badge=site.data.badges.benitrat0r_win %}
+					{% include badge-entry.html badge=site.data.badges.benitrat0r_lose %}
 				</ul>
 			</dt>
 			<dd>
@@ -197,8 +196,8 @@ permalink: /miniwiki/
 		<div>
 			<dt class="badge-container">
 				<ul>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/crumbled-contract.png"></span><span class="badge-description">TODO</span></li>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/contract.png"></span><span class="badge-description">TODO</span></li>
+					{% include badge-entry.html badge=site.data.badges.contract %}
+					{% include badge-entry.html badge=site.data.badges.crumbled_contract %}
 				</ul>
 			</dt>
 			<dd>
@@ -216,8 +215,8 @@ permalink: /miniwiki/
 		<div>
 			<dt class="badge-container">
 				<ul>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/connect4-red.png"></span><span class="badge-description">TODO</span></li>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/connect4-blue.png"></span><span class="badge-description">TODO</span></li>
+					{% include badge-entry.html badge=site.data.badges.connect4_red %}
+					{% include badge-entry.html badge=site.data.badges.connect4_blue %}
 				</ul>
 			</dt>
 			<dd>
@@ -254,8 +253,8 @@ permalink: /miniwiki/
 		<div>
 			<dt class="badge-container">
 				<ul>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/krebs-donation.png"></span><span class="badge-description">TODO</span></li>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/krebs-starter.png"></span><span class="badge-description">TODO</span></li>
+					{% include badge-entry.html badge=site.data.badges.krebs_spende %}
+					{% include badge-entry.html badge=site.data.badges.krebs_spende_starter %}
 				</ul>
 			</dt>
 			<dd>
@@ -265,7 +264,7 @@ permalink: /miniwiki/
 		<div>
 			<dt class="badge-container">
 				<ul>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/art13.png"></span><span class="badge-description">TODO</span></li>
+					{% include badge-entry.html badge=site.data.badges.artikel_13 %}
 				</ul>
 			</dt>
 			<dd>
@@ -277,8 +276,8 @@ permalink: /miniwiki/
 		<div>
 			<dt class="badge-container">
 				<ul>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/benitrator-lose.png"></span><span class="badge-description">TODO</span></li>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/benitrator-win.png"></span><span class="badge-description">TODO</span></li>
+					{% include badge-entry.html badge=site.data.badges.benitrat0r_2019_win %}
+					{% include badge-entry.html badge=site.data.badges.benitrat0r_2019_lose %}
 				</ul>
 			</dt>
 			<dd>
@@ -290,8 +289,8 @@ permalink: /miniwiki/
 		<div>
 			<dt class="badge-container">
 				<ul>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/paint-silver.png"></span><span class="badge-description">TODO</span></li>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/paint-gold.png"></span><span class="badge-description">TODO</span></li>
+					{% include badge-entry.html badge=site.data.badges.profi_reinlad %}
+					{% include badge-entry.html badge=site.data.badges.reinlad %}
 				</ul>
 			</dt>
 			<dd>
@@ -307,7 +306,7 @@ permalink: /miniwiki/
 		<div>
 			<dt class="badge-container">
 				<ul>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/krebs19-donation.png"></span><span class="badge-description">TODO</span></li>
+					{% include badge-entry.html badge=site.data.badges.krebs_spende_2019 %}
 				</ul>
 			</dt>
 			<dd>
@@ -317,7 +316,7 @@ permalink: /miniwiki/
 		<div>
 			<dt class="badge-container">
 				<ul>
-					<li><span class="badge-preview"><img src="https://pr0gramm.com/media/badges/good-noodle.png"></span><span class="badge-description">TODO</span></li>
+					{% include badge-entry.html badge=site.data.badges.good_noodle %}
 				</ul>
 			</dt>
 			<dd>
@@ -332,8 +331,8 @@ permalink: /miniwiki/
 		<div>
 			<dt class="badge-container">
 				<ul>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/benitrator20-win.png"></span><span class="badge-description">TODO</span></li>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/benitrator20-lose.png"></span><span class="badge-description">TODO</span></li>
+					{% include badge-entry.html badge=site.data.badges.benitrator20_win %}
+					{% include badge-entry.html badge=site.data.badges.benitrator20_lose %}
 				</ul>
 			</dt>
 			<dd>
@@ -344,12 +343,12 @@ permalink: /miniwiki/
 		<div>
 			<dt class="badge-container">
 				<ul>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/pr0rona-globuli.png"></span><span class="badge-description">TODO</span></li>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/pr0rona-mask.png"></span><span class="badge-description">TODO</span></li>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/pr0rona-thermometer.png"></span><span class="badge-description">TODO</span></li>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/pr0rona-beer.png"></span><span class="badge-description">TODO</span></li>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/pr0rona-toiletpaper.png"></span><span class="badge-description">TODO</span></li>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/backpack.png"></span><span class="badge-description">TODO</span></li>
+					{% include badge-entry.html badge=site.data.badges.pr0rona_mask %}
+					{% include badge-entry.html badge=site.data.badges.pr0rona_globuli %}
+					{% include badge-entry.html badge=site.data.badges.pr0rona_thermometer %}
+					{% include badge-entry.html badge=site.data.badges.pr0rona_beer %}
+					{% include badge-entry.html badge=site.data.badges.pr0rona_toiletpaper %}
+					{% include badge-entry.html badge=site.data.badges.backpack %}
 				</ul>
 			</dt>
 			<dd>
@@ -429,14 +428,14 @@ permalink: /miniwiki/
 		<div>
 			<dt class="badge-container">
 				<ul>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/donation_2021.png"></span><span class="badge-description">TODO</span></li>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/casino_winner.png"></span><span class="badge-description">TODO</span></li>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/casino_loser.png"></span><span class="badge-description">TODO</span></li>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/casino_jackpot.png"></span><span class="badge-description">TODO</span></li>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/casino_king.png"></span><span class="badge-description">TODO</span></li>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/casino_gewinnertyp.png"></span><span class="badge-description">TODO</span></li>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/casino_roulette.png"></span><span class="badge-description">TODO</span></li>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/casino_hooker.png"></span><span class="badge-description">TODO</span></li>
+					{% include badge-entry.html badge=site.data.badges.donation_2021 %}
+					{% include badge-entry.html badge=site.data.badges.casino_winner %}
+					{% include badge-entry.html badge=site.data.badges.casino_loser %}
+					{% include badge-entry.html badge=site.data.badges.casino_jackpot %}
+					{% include badge-entry.html badge=site.data.badges.casino_king %}
+					{% include badge-entry.html badge=site.data.badges.casino_roulette %}
+					{% include badge-entry.html badge=site.data.badges.casino_gewinnertyp %}
+					{% include badge-entry.html badge=site.data.badges.casino_hooker %}
 				</ul>
 			</dt>
 			<dd>
@@ -446,10 +445,10 @@ permalink: /miniwiki/
 		<div>
 			<dt class="badge-container">
 				<ul>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/stonks-gain.png"></span><span class="badge-description">TODO</span></li>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/stonks-crash.png"></span><span class="badge-description">TODO</span></li>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/stonks-diamond-paws.png"></span><span class="badge-description">TODO</span></li>
-					<li><span class="badge-preview"><img src="//pr0gramm.com/media/badges/stonks-jrmy.png"></span><span class="badge-description">TODO</span></li>
+					{% include badge-entry.html badge=site.data.badges.stonks_gain %}
+					{% include badge-entry.html badge=site.data.badges.stonks_crash %}
+					{% include badge-entry.html badge=site.data.badges.stonks_diamond_paws %}
+					{% include badge-entry.html badge=site.data.badges.stonks_jrmy %}
 				</ul>
 			</dt>
 			<dd>
