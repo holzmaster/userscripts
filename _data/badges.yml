@@ -1,45 +1,135 @@
-keyb0ard: "//pr0gramm.com/media/badges/keyboard.png"
-wichtel: "//pr0gramm.com/media/badges/secret-santa-2014.png"
-hurensohn: "//pr0gramm.com/media/badges/bad-secret-santa-2014.png"
-years: "//pr0gramm.com/media/badges/years.png"
-comments: "//pr0gramm.com/media/badges/comments.png"
-tags: "//pr0gramm.com/media/badges/tags.svg"
-fag: "//pr0gramm.com/media/badges/social-share.png"
-benitrat0r_lose: "//pr0gramm.com/media/badges/benitrat0r-lose.png"
-benitrat0r_win: "//pr0gramm.com/media/badges/benitrat0r-win.png"
-contract: "//pr0gramm.com/media/badges/contract.png"
-crumbled_contract: "//pr0gramm.com/media/badges/crumbled-contract.png"
-coin: "//pr0gramm.com/media/badges/pr0-coin.png"
-pr0mart: "//pr0gramm.com/media/badges/shopping-cart.png"
-connect4_red: "//pr0gramm.com/media/badges/connect4-red.png"
-connect4_blue: "//pr0gramm.com/media/badges/connect4-blue.png"
-deleted_upload: "//pr0gramm.com/media/badges/itemdelete.svg"
-deleted_comments: "//pr0gramm.com/media/badges/commentdelete.svg"
-krebs_spende: "//pr0gramm.com/media/badges/krebs-donation.png"
-artikel_13: "//pr0gramm.com/media/badges/art13.png"
-benitrat0r_2019_win: "//pr0gramm.com/media/badges/benitrator-win.png"
-benitrat0r_2019_lose: "//pr0gramm.com/media/badges/benitrator-lose.png"
-krebs_spende_2019: "//pr0gramm.com/media/badges/krebs19-donation.png"
-reinlad: "//pr0gramm.com/media/badges/paint-silver.png"
-profi_reinlad: "//pr0gramm.com/media/badges/paint-gold.png"
-good_noodle: "//pr0gramm.com/media/badges/good-noodle.png"
-benitrator20_win: "//pr0gramm.com/media/badges/benitrator20-win.png"
-benitrator20_lose: "//pr0gramm.com/media/badges/benitrator20-lose.png"
-pr0rona_mask: "//pr0gramm.com/media/badges/pr0rona-mask.png"
-pr0rona_globuli: "//pr0gramm.com/media/badges/pr0rona-globuli.png"
-pr0rona_thermometer: "//pr0gramm.com/media/badges/pr0rona-thermometer.png"
-pr0rona_beer: "//pr0gramm.com/media/badges/pr0rona-beer.png"
-pr0rona_toiletpaper: "//pr0gramm.com/media/badges/pr0rona-toiletpaper.png"
-backpack: "//pr0gramm.com/media/badges/backpack.png"
-casino_winner: "//pr0gramm.com/media/badges/casino_winner.png"
-casino_loser: "//pr0gramm.com/media/badges/casino_loser.png"
-casino_jackpot: "//pr0gramm.com/media/badges/casino_jackpot.png"
-casino_king: "//pr0gramm.com/media/badges/casino_king.png"
-casino_roulette: "//pr0gramm.com/media/badges/casino_roulette.png"
-casino_gewinnertyp: "//pr0gramm.com/media/badges/casino_gewinnertyp.png"
-casino_hooker: "//pr0gramm.com/media/badges/casino_hooker.png"
-donation_2021: "//pr0gramm.com/media/badges/donation_2021.png"
-stonks_gain: "//pr0gramm.com/media/badges/stonks-gain.png"
-stonks_crash: "//pr0gramm.com/media/badges/stonks-crash.png"
-stonks_diamond_paws: "//pr0gramm.com/media/badges/stonks-diamond-paws.png"
-stonks_jrmy: "//pr0gramm.com/media/badges/stonks-jrmy.png"
+keyb0ard:
+  url: "//pr0gramm.com/media/badges/keyboard.png"
+  description: "TODO"
+wichtel:
+  url: "//pr0gramm.com/media/badges/secret-santa-2014.png"
+  description: "TODO"
+hurensohn:
+  url: "//pr0gramm.com/media/badges/bad-secret-santa-2014.png"
+  description: "TODO"
+years:
+  url: "//pr0gramm.com/media/badges/years.png"
+  description: "TODO"
+comments:
+  url: "//pr0gramm.com/media/badges/comments.png"
+  description: "TODO"
+tags:
+  url: "//pr0gramm.com/media/badges/tags.svg"
+  description: "TODO"
+fag:
+  url: "//pr0gramm.com/media/badges/social-share.png"
+  description: "TODO"
+benitrat0r_lose:
+  url: "//pr0gramm.com/media/badges/benitrat0r-lose.png"
+  description: "TODO"
+benitrat0r_win:
+  url: "//pr0gramm.com/media/badges/benitrat0r-win.png"
+  description: "TODO"
+contract:
+  url: "//pr0gramm.com/media/badges/contract.png"
+  description: "TODO"
+crumbled_contract:
+  url: "//pr0gramm.com/media/badges/crumbled-contract.png"
+  description: "TODO"
+coin:
+  url: "//pr0gramm.com/media/badges/pr0-coin.png"
+  description: "TODO"
+pr0mart:
+  url: "//pr0gramm.com/media/badges/shopping-cart.png"
+  description: "TODO"
+connect4_red:
+  url: "//pr0gramm.com/media/badges/connect4-red.png"
+  description: "TODO"
+connect4_blue:
+  url: "//pr0gramm.com/media/badges/connect4-blue.png"
+  description: "TODO"
+deleted_upload:
+  url: "//pr0gramm.com/media/badges/itemdelete.svg"
+  description: "TODO"
+deleted_comments:
+  url: "//pr0gramm.com/media/badges/commentdelete.svg"
+  description: "TODO"
+krebs_spende:
+  url: "//pr0gramm.com/media/badges/krebs-donation.png"
+  description: "TODO"
+artikel_13:
+  url: "//pr0gramm.com/media/badges/art13.png"
+  description: "TODO"
+benitrat0r_2019_win:
+  url: "//pr0gramm.com/media/badges/benitrator-win.png"
+  description: "TODO"
+benitrat0r_2019_lose:
+  url: "//pr0gramm.com/media/badges/benitrator-lose.png"
+  description: "TODO"
+krebs_spende_2019:
+  url: "//pr0gramm.com/media/badges/krebs19-donation.png"
+  description: "TODO"
+reinlad:
+  url: "//pr0gramm.com/media/badges/paint-silver.png"
+  description: "TODO"
+profi_reinlad:
+  url: "//pr0gramm.com/media/badges/paint-gold.png"
+  description: "TODO"
+good_noodle:
+  url: "//pr0gramm.com/media/badges/good-noodle.png"
+  description: "TODO"
+benitrator20_win:
+  url: "//pr0gramm.com/media/badges/benitrator20-win.png"
+  description: "TODO"
+benitrator20_lose:
+  url: "//pr0gramm.com/media/badges/benitrator20-lose.png"
+  description: "TODO"
+pr0rona_mask:
+  url: "//pr0gramm.com/media/badges/pr0rona-mask.png"
+  description: "TODO"
+pr0rona_globuli:
+  url: "//pr0gramm.com/media/badges/pr0rona-globuli.png"
+  description: "TODO"
+pr0rona_thermometer:
+  url: "//pr0gramm.com/media/badges/pr0rona-thermometer.png"
+  description: "TODO"
+pr0rona_beer:
+  url: "//pr0gramm.com/media/badges/pr0rona-beer.png"
+  description: "TODO"
+pr0rona_toiletpaper:
+  url: "//pr0gramm.com/media/badges/pr0rona-toiletpaper.png"
+  description: "TODO"
+backpack:
+  url: "//pr0gramm.com/media/badges/backpack.png"
+  description: "TODO"
+casino_winner:
+  url: "//pr0gramm.com/media/badges/casino_winner.png"
+  description: "TODO"
+casino_loser:
+  url: "//pr0gramm.com/media/badges/casino_loser.png"
+  description: "TODO"
+casino_jackpot:
+  url: "//pr0gramm.com/media/badges/casino_jackpot.png"
+  description: "TODO"
+casino_king:
+  url: "//pr0gramm.com/media/badges/casino_king.png"
+  description: "TODO"
+casino_roulette:
+  url: "//pr0gramm.com/media/badges/casino_roulette.png"
+  description: "TODO"
+casino_gewinnertyp:
+  url: "//pr0gramm.com/media/badges/casino_gewinnertyp.png"
+  description: "TODO"
+casino_hooker:
+  url: "//pr0gramm.com/media/badges/casino_hooker.png"
+  description: "TODO"
+donation_2021:
+  url: "//pr0gramm.com/media/badges/donation_2021.png"
+  description: "TODO"
+stonks_gain:
+  url: "//pr0gramm.com/media/badges/stonks-gain.png"
+  description: "TODO"
+stonks_crash:
+  url: "//pr0gramm.com/media/badges/stonks-crash.png"
+  description: "TODO"
+stonks_diamond_paws:
+  url: "//pr0gramm.com/media/badges/stonks-diamond-paws.png"
+  description: "TODO"
+stonks_jrmy:
+  url: "//pr0gramm.com/media/badges/stonks-jrmy.png"
+  description: "TODO"
