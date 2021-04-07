@@ -35,17 +35,17 @@ $post-padding:      20px;
 $post-padding-negative: -20px;
 
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+	@media screen and (max-width: $device) {
+		@content;
+	}
 }
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
-        "syntax-highlighting"
+	"base",
+	"layout",
+	"syntax-highlighting"
 ;
 
 body {
@@ -72,6 +72,7 @@ article h2 > small {
 .site-header a {
 	color: $pr0-headlink;
 }
+
 
 .pr0-button {
 	font-weight: normal;
