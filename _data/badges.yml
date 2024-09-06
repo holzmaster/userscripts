@@ -62,10 +62,10 @@ connect4_blue:
   link: //pr0gramm.com/top/2472492
 
 deleted_upload:
-  image: "//pr0gramm.com/media/badges/itemdelete.svg"
+  image: "//pr0gramm.com/media/badges/item-delete.svg"
   description: "Hat X eigene Hochlads löschen lassen"
 deleted_comments:
-  image: "//pr0gramm.com/media/badges/commentdelete.svg"
+  image: "//pr0gramm.com/media/badges/comment-delete.svg"
   description: "Hat X eigene Kommentare löschen lassen"
 
 krebs_spende:
@@ -101,7 +101,7 @@ profi_reinlad:
   link: //pr0gramm.com/top/3121461
 
 krebs_spende_2019:
-  image: "//pr0gramm.com/media/badges/krebs19-donation.png"
+  image: "//pr0gramm.com/media/badges/krebs-donation-2019.png"
   description: "Hat 2019 gegen Krebs gespendet - 2. Apr 2019"
   link: //pr0gramm.com/top/krebsspende
 good_noodle:
@@ -110,11 +110,11 @@ good_noodle:
   link: //pr0gramm.com/top/3770179
 
 benitrator20_win:
-  image: "//pr0gramm.com/media/badges/benitrator20-win.png"
+  image: "//pr0gramm.com/media/badges/benitrator-2020-win.png"
   description: "Hat im März 2020 nach X Drehs X Benis gewonnen - 31. Mär 2020"
   link: //pr0gramm.com/top/3770179
 benitrator20_lose:
-  image: "//pr0gramm.com/media/badges/benitrator20-lose.png"
+  image: "//pr0gramm.com/media/badges/benitrator-2020-lose.png"
   description: "Hat im März 2020 nach X Drehs X Benis verzockt - 31. Mär 2020"
   link: //pr0gramm.com/top/3770179
 
@@ -144,36 +144,36 @@ backpack:
   link: //pr0gramm.com/top/3793877
 
 donation_2021:
-  image: "//pr0gramm.com/media/badges/donation_2021.png"
+  image: "//pr0gramm.com/media/badges/donation-2021.png"
   description: "Hat sich mit seiner Spende im März 2021 am 1. Mio. Meilestein beteiligt - 31. Mär 2021"
   link: //pr0gramm.com/top/4482775
 
 casino_winner:
-  image: "//pr0gramm.com/media/badges/casino_winner.png"
+  image: "//pr0gramm.com/media/badges/casino-winner.png"
   description: "Hat im CASINO PR0YALE X Credits / X Benis gewonnen - 31. Mär 2021"
   link: //pr0gramm.com/top/4467685
 casino_loser:
-  image: "//pr0gramm.com/media/badges/casino_loser.png"
+  image: "//pr0gramm.com/media/badges/casino-loser.png"
   description: "Die Bank gewinnt immer. X Credits / X Benis im CASINO PR0YALE verzockt - 31. Mär 2021"
   link: //pr0gramm.com/top/4467685
 casino_jackpot:
-  image: "//pr0gramm.com/media/badges/casino_jackpot.png"
+  image: "//pr0gramm.com/media/badges/casino-jackpot.png"
   description: "Jackpott - 31. Mär 2021"
   link: //pr0gramm.com/top/4467685
 casino_king:
-  image: "//pr0gramm.com/media/badges/casino_king.png"
+  image: "//pr0gramm.com/media/badges/casino-king.png"
   description: "Casino King - 31. Mär 2021"
   link: //pr0gramm.com/top/4467685
 casino_roulette:
-  image: "//pr0gramm.com/media/badges/casino_roulette.png"
+  image: "//pr0gramm.com/media/badges/casino-roulette.png"
   description: "Roulette - 31. Mär 2021"
   link: //pr0gramm.com/top/4467685
 casino_gewinnertyp:
-  image: "//pr0gramm.com/media/badges/casino_gewinnertyp.png"
+  image: "//pr0gramm.com/media/badges/casino-gewinnertyp.png"
   description: "Gewinnertyp - 31. Mär 2021"
   link: //pr0gramm.com/top/4467685
 casino_hooker:
-  image: "//pr0gramm.com/media/badges/casino_hooker.png"
+  image: "//pr0gramm.com/media/badges/casino-hooker.png"
   description: "Blackjack and Hookers - 31. Mär 2021"
   link: //pr0gramm.com/top/4467685
 
